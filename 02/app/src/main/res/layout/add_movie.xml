@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/addMovieLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Movie Name" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Description" />
+
+    <EditText
+        android:id="@+id/editTextDirector"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Director" />
+
+    <EditText
+        android:id="@+id/editTextActors"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Actors (Separate individual actors with ', ')" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
